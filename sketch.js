@@ -68,12 +68,12 @@ function draw() {
       if(monsterGroup.isTouching(knife)){
         gameState=END;
         
-        gameOverImage.visble = true;
+        
 
         
         //add gameover sound here
         
-        ganeOverSound.play();
+        gameOverSound.play();
 
         fruitGroup.destroyEach();
         monsterGroup.destroyEach();
